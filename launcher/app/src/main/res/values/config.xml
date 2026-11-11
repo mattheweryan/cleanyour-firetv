@@ -62,11 +62,15 @@
 
     <!-- A tile's name instead of the app's own: "package=Name". It also shows above the dock. -->
     <string-array name="app_labels">
+	<item>com.mistykuu.iptvdeck=TV</item>
+	<item>com.amazon.firetv.youtube=YouTube Old</item>
+	<item>io.gh.reisxd.tizentube.cobalt=YouTube</item>
     </string-array>
     <!-- A tile's artwork instead of the app's banner: "package=drawable", a banner_* drawable bundled with the
          launcher (res/drawable). banner_tv is a magenta field with the Live TV glyph. -->
     <string-array name="app_banners">
-        <item>com.apple.airplay.amazon.airplay=banner_airplay</item>
+	<item>com.mistykuu.iptvdeck=banner_live_tv</item>
+	<item>io.gh.reisxd.tizentube.cobalt=banner_tizen_youtube</item>
     </string-array>
 
     <!-- TVs with no TvInputManager have no HDMI list to read, but their own source-selection panel
@@ -174,7 +178,7 @@
     <bool name="shamsi_date">false</bool>
 
     <!-- A name after the greeting: "Mr. Trịnh" shows GOOD MORNING, MR. TRỊNH. Empty: the greeting alone. -->
-    <string name="greeting_name" translatable="false">David</string>
+    <string name="greeting_name" translatable="false">Matty</string>
     <!-- Optional VPN app the network pill opens (hold the pill for Wi-Fi settings), e.g. the package of the
          VPN you use. Empty: the pill opens Wi-Fi settings. The green VPN badge shows for any VPN either way;
          with an app set here, a red "VPN off" badge also shows while no VPN is up. -->
